@@ -7,4 +7,4 @@
 
 -- from {{ ref('stg_transactions_enriched') }}
 
-{{ audit_helper.compare_relations(source('eth', 'contracts'), source('eth', 'contracts_clone')) }}
+-- {{ audit_helper.compare_relations(source('eth', 'contracts'), source('eth', 'contracts_clone')) }}
